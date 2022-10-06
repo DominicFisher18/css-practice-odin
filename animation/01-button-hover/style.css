@@ -9,11 +9,16 @@
 }
 
 button {
-  border-radius: 8px;
+  border-radius: 6px;
   border: none;
-  background-color: #2563eb;
+  background-color: blue;
   color: white;
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  transition: transform .3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.5);
 }
